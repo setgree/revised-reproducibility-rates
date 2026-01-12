@@ -1,0 +1,22 @@
+[1] "en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8"
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+===== BRINDLEY 2018 STUDY 1 REPRODUCTION =====
+DV: Romantic Interest
+IVs: Target formidability, income, group status, conception risk, VSC
+
+Original data: N = 2006 observations
+After filtering: N = 430 participants
+
+===== RELIABILITY ANALYSES =====
+Error: object 'vsc_items_corrected' not found
+Execution halted

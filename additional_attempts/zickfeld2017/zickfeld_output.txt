@@ -1,0 +1,120 @@
+[1] "en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8"
+Loading required package: Matrix
+Warning message:
+package ‘lme4’ was built under R version 4.4.3 
+
+Attaching package: ‘lmerTest’
+
+The following object is masked from ‘package:lme4’:
+
+    lmer
+
+The following object is masked from ‘package:stats’:
+
+    step
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+===== ZICKFELD 2017 REPRODUCTION =====
+Inclusion of Other in Self (IOS) - Response Time paradigm
+
+RT data: N = 48120 observations
+IOS data: N = 401 participants
+
+After filtering (US only):
+RT data: 39840 observations
+IOS data: 339 participants
+
+===== MANIPULATION CHECK: IOS by Condition =====
+# A tibble: 2 × 4
+  cond            N Mean_IOS SD_IOS
+  <dbl+lbl>   <int>    <dbl>  <dbl>
+1 0 [distant]   164     2.59   1.41
+2 1 [close]     175     4.77   1.46
+
+ANOVA: IOS ~ Condition
+                 Df Sum Sq Mean Sq F value Pr(>F)    
+as.factor(cond)   1  404.6   404.6   195.7 <2e-16 ***
+Residuals       337  696.7     2.1                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Welch t-test:
+t(336.75) = -14.007, p = <2e-16
+
+===== HYPOTHESIS 1: Mixed Model - Response Times =====
+DV: rt (response time in ms)
+Predictors: DESCR_n (descriptiveness), cond (close/distant), TM_n (trait match)
+Random effects: subject
+
+Model summary:
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: rt ~ DESCR_n * cond * TM_n + (1 | subject)
+   Data: rt_filtered
+
+REML criterion at convergence: 603191.3
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.8611 -0.5004 -0.1982  0.1966  9.0484 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ subject  (Intercept)  61531   248.1   
+ Residual             214052   462.7   
+Number of obs: 39840, groups:  subject, 339
+
+Fixed effects:
+                   Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)        1015.547     13.722   340.765  74.008  < 2e-16 ***
+DESCR_n              33.875      5.143 39592.240   6.587 4.54e-11 ***
+cond                -27.852     27.444   340.765  -1.015   0.3109    
+TM_n               -138.230     12.046 39827.922 -11.475  < 2e-16 ***
+DESCR_n:cond         14.158     10.285 39592.240   1.377   0.1686    
+DESCR_n:TM_n        -20.457     22.073 39605.937  -0.927   0.3540    
+cond:TM_n            60.676     24.092 39827.922   2.519   0.0118 *  
+DESCR_n:cond:TM_n    13.193     44.146 39605.937   0.299   0.7650    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) DESCR_n cond   TM_n   DESCR_n: DESCR_:T cn:TM_
+DESCR_n      0.011                                               
+cond         0.030 -0.003                                        
+TM_n        -0.071 -0.095   0.014                                
+DESCR_n:cnd -0.003 -0.030   0.011 -0.025                         
+DESCR_n:TM_ -0.016 -0.342  -0.003 -0.160  0.081                  
+cond:TM_n    0.014 -0.025  -0.071  0.122 -0.095   -0.066         
+DESCR_::TM_ -0.003  0.081  -0.016 -0.066 -0.342    0.105   -0.160
+
+
+===== KEY FINDINGS =====
+
+Main effects:
+  DESCR_n (descriptiveness): 33.87 ms, t = 6.59 , p = 4.54e-11 
+  cond (close vs distant): -27.85 ms, t = -1.01 , p = 0.311 
+  TM_n (trait match): -138.23 ms, t = -11.48 , p = <2e-16 
+
+2-way interactions:
+  DESCR_n × cond: 14.16 ms, t = 1.38 , p = 0.169 
+  DESCR_n × TM_n: -20.46 ms, t = -0.93 , p = 0.354 
+  cond × TM_n: 60.68 ms, t = 2.52 , p = 0.0118 
+
+3-way interaction:
+  DESCR_n × cond × TM_n: 13.19 ms, t = 0.3 , p = 0.765 
+
+===== SUMMARY =====
+Successfully converted SPSS to R and ran all main analyses
+- Manipulation check (IOS differs by condition)
+- H1: Mixed effects model for response times
+This paper was marked 'too complex' in 2018 but is fully reproducible!

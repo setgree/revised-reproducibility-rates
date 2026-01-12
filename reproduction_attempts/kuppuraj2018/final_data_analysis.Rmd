@@ -1,0 +1,470 @@
+---
+title: 'Final data analysis: Kuppuraj et al'
+author: "DVM Bishop and P Thompson"
+date: "08/12/2017"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE)
+```
+
+### Final data analysis : 'Online incidental statistical learning of audiovisual word sequences in adults - a registered report'
+Task design and analysis is a collaborative effort between Kuppuraj, Paul Thompson, Mihaela Duta and Dorothy Bishop.Please 
+Note this is just an expansion of the .RMD file showing model development and analysis with IPA version of  this manuscript. See here https://osf.io/342rz/
+
+
+
+Initial steps: may need to install packages. 
+
+```{r,message=F,warning=F,include=TRUE} 
+#setwd("c:/Users/pthompson/Dropbox/SL and WM paper/Revision/Pilot_Data_Revised task/V5")
+#directory where data are found - currently set to Mac
+options(scipen=999) #avoid scientific format
+
+# library(pandoc)
+# library(devtools)
+# #install_github("MatthieuStigler/RDDtools")
+# #install_github(repo = "RDDtools", username = "MatthieuStigler", subdir = "RDDtools")
+# library(RDDtools)
+# #install.packages('dplyr')
+# library(dplyr)
+# #install.packages('optimx')
+# library(optimx)
+# #install.packages('lme4')
+# library(lme4)
+# #remove.packages(c("ggplot2"))
+# 
+# #install.packages('rlang', dependencies = TRUE)
+# #install.packages('ggplot2', dependencies = TRUE)
+# library(rlang)
+# library(ggplot2)
+# library(gridExtra)
+# library(tidyverse)
+# library(RColorBrewer)
+# library(splines)
+# library(doBy)
+# #install.packages("FBN")
+# library(FBN)
+# install.packages('lmerTest')
+# library(lmerTest)
+# #install.packages('sjPlot')
+# library(sjPlot)
+# install.packages('Hmisc')
+# library(Hmisc) 
+# #install.packages('Rmisc')
+# library(Rmisc)
+# install.packages('entropy')
+# library(entropy)
+# install.packages('infotheo')
+# library(infotheo)
+#substitute windows for quartz if nonmac
+if(.Platform$OS.type=="windows") {
+  quartz<-function() windows()
+} 
+
+```
+setwd<-paste("N:\\KUPPU\\SL and WM\\Extracted_Level_1_Raw",sep="")
+namelist=list.files("Visit_1", pattern="*.csv", full.names = TRUE)
+
+nsubs<-length(namelist)
+#initialise data frames for holding main data and regression coefficients for individual participants
+main.data.visit1_ALL<-data.frame(ID=factor(), Age=integer(), Gender=factor(),Routine=integer(), SetInd=integer(), Type=integer(), TargetRT=integer())
+thistype<-c('rand','Adj_D','Adj_P','Non_D')
+#lmsummarycoefs<-data.frame(matrix(NA,nsubs*25,nrow=nsubs))#wondering why this is here?? 
+
+
+for (i in 1:nsubs){
+  myname=namelist[i]
+  mycsv=paste(myname,".csv",sep="")
+  mydata= read.csv(myname)  # read csv file 
+  #get rid of RTs of inaccurate responses:replace with NA. 
+  Rwdata=mydata
+  rawdata=Rwdata[ ,c(1,2,3,5,10,12,26)]
+  RTcutoff<-2000
+  
+  ##############
+  rawdata$TargetRT[rawdata$TargetACC==0]<-NA
+  rawdata$TargetRT[rawdata$TargetRT<(-199)]<-NA #include anticipations up to -200
+  rawdata$TargetRT[rawdata$TargetRT>RTcutoff]<-RTcutoff #set long RTs to the RTcutoff value
+  
+  RWdata<-rawdata
+  
+  #rename the types 
+  RWdata$Type[RWdata$Type==1]<- "Adj_D"
+  RWdata$Type[RWdata$Type==2]<- "Adj_D"
+  
+  RWdata$Type[RWdata$Type==3]<- "Adj_P"
+  RWdata$Type[RWdata$Type==4]<- "Adj_P"
+  
+  RWdata$Type[RWdata$Type==5]<- "Non_D"
+  RWdata$Type[RWdata$Type==6]<- "Non_D"
+  
+  RWdata$Type[RWdata$Type==7]<- "rand"
+  RWdata$Type[RWdata$Type==8]<- "rand"
+  
+  RWdata$Type<-as.factor(RWdata$Type)
+  RWdata$Type<-factor(RWdata$Type,levels=c("rand", "Adj_D", "Adj_P", "Non_D"))
+  #ensure random is the first in the list, as this will be baseline comparison in analysis
+  
+  #Create a new matrix that has summary data for this participant. 
+  
+  detaildata.visit1<- summaryBy(TargetRT ~ SetInd+Type,  data=RWdata,
+                                FUN=c(min), na.rm=TRUE)
+  #NB only 2 points to consider, so now taking minimum, not median
+  
+  detaildata.visit1$ID<-rep(RWdata$ID[4],length(detaildata.visit1[,1]))
+  detaildata.visit1$Age<-rep(RWdata$Age[4],length(detaildata.visit1[,2]))
+  detaildata.visit1$Gender<-rep(RWdata$Gender[4],length(detaildata.visit1[,3]))
+  detaildata.visit1$Routine<-rep(RWdata$Routine[4],length(detaildata.visit1[,5]))
+  #Need to repeat the subject ID on each line
+  
+  names(detaildata.visit1)<-c("SetInd", "Type", "TargetRT", "ID",'Age','Gender','Routine') #column headings
+  
+  main.data.visit1_ALL<-rbind(main.data.visit1_ALL,detaildata.visit1) #add to main data in long form with participants stacked below each other
+}
+
+#we need to have a data.frame that does not have particiapnt number 31 who did not show up on visit 2. This dataframe for 
+#reliability test 
+main.data.visit1=subset(main.data.visit1_ALL,!main.data.visit1_ALL$ID==31)
+
+
+#do the same thing for visit 2 
+
+
+namelist.v2=list.files("Visit_2", pattern="*.csv", full.names = TRUE)
+
+nsubs.v2<-length(namelist.v2)
+#initialise data frames for holding main data and regression coefficients for individual participants
+main.data.visit2<-data.frame(ID=factor(), Age=integer(), Gender=factor(),Routine=integer(), SetInd=integer(), Type=integer(), TargetRT=integer())
+thistype<-c('rand','Adj_D','Adj_P','Non_D')
+#lmsummarycoefs<-data.frame(matrix(NA,nsubs*25,nrow=nsubs))#wondering why this is here?? 
+
+
+for (i in 1:nsubs.v2){
+  myname=namelist.v2[i]
+  mycsv=paste(myname,".csv",sep="")
+  mydata= read.csv(myname)  # read csv file 
+  #get rid of RTs of inaccurate responses:replace with NA. 
+  Rwdata=mydata
+  rawdata=Rwdata[ ,c(1,2,3,5,10,12,26)]
+  RTcutoff<-2000
+  
+  ##############
+  rawdata$TargetRT[rawdata$TargetACC==0]<-NA
+  rawdata$TargetRT[rawdata$TargetRT<(-199)]<-NA #include anticipations up to -200
+  rawdata$TargetRT[rawdata$TargetRT>RTcutoff]<-RTcutoff #set long RTs to the RTcutoff value
+  
+  RWdata<-rawdata
+  
+  #rename the types 
+  RWdata$Type[RWdata$Type==1]<- "Adj_D"
+  RWdata$Type[RWdata$Type==2]<- "Adj_D"
+  
+  RWdata$Type[RWdata$Type==3]<- "Adj_P"
+  RWdata$Type[RWdata$Type==4]<- "Adj_P"
+  
+  RWdata$Type[RWdata$Type==5]<- "Non_D"
+  RWdata$Type[RWdata$Type==6]<- "Non_D"
+  
+  RWdata$Type[RWdata$Type==7]<- "rand"
+  RWdata$Type[RWdata$Type==8]<- "rand"
+  
+  RWdata$Type<-as.factor(RWdata$Type)
+  RWdata$Type<-factor(RWdata$Type,levels=c("rand", "Adj_D", "Adj_P", "Non_D"))
+  #ensure random is the first in the list, as this will be baseline comparison in analysis
+  
+  #Create a new matrix that has summary data for this participant. 
+  
+  detaildata.visit2<- summaryBy(TargetRT ~ SetInd+Type,  data=RWdata,
+                                FUN=c(min), na.rm=TRUE)
+  #NB only 2 points to consider, so now taking minimum, not median
+  
+  detaildata.visit2$ID<-rep(RWdata$ID[4],length(detaildata.visit2[,1]))
+  detaildata.visit2$Age<-rep(RWdata$Age[4],length(detaildata.visit2[,2]))
+  detaildata.visit2$Gender<-rep(RWdata$Gender[4],length(detaildata.visit2[,3]))
+  detaildata.visit2$Routine<-rep(RWdata$Routine[4],length(detaildata.visit2[,5]))
+  #Need to repeat the subject ID on each line
+  
+  names(detaildata.visit2)<-c("SetInd", "Type", "TargetRT", "ID",'Age','Gender','Routine') #column headings
+  
+  main.data.visit2<-rbind(main.data.visit2,detaildata.visit2) #add to main data in long form with participants stacked below each other
+}
+
+#compare the two main data frames  and make sure the ids and Routine column agree -> useful for relability check 
+#i.e., compare the column 4 between two visits and check the IDs match 
+main.data.visit1[which(main.data.visit1[,4] != main.data.visit2[,4]), ]#output should be of 0 rows 
+#i.e., compare the column 7 between two visits and check the Routines match 
+main.data.visit1[which(main.data.visit1[,7] != main.data.visit2[,7]), ]#output should be of 0 rows
+
+#matches 
+#look at the plots for visit 1. This will generate and save the Figure 2 in manuscript. Commented out for speedin running the script. 
+
+ # summarytable_v1<-summaryBy(TargetRT~SetInd+Type,data=main.data.visit1,FUN=c(mean),na.rm=TRUE)
+ # 
+ # p=ggplot(summarytable_v1,aes(x = SetInd, y = TargetRT.mean,color=Type))  +
+ #  scale_color_discrete(name  ="Type",
+ #                         breaks=c("rand", "Adj_D",'Adj_P','Non_D'),
+ #                         labels=c('Random','Adjacent Deterministic','Adjacent Probabilistic','Non-adjacent Deterministic'))+
+ #  scale_x_continuous("Sets") +
+ #  scale_y_continuous("Mean RT") +
+ #        theme_bw()+
+ #  geom_line(size=.8)+geom_vline(xintercept=c(31,40), linetype="dashed", size=0.8)+
+ #  theme(legend.position=c(.14, .2),legend.background = element_rect(fill="transparent"))+ annotate("text", x = c(20,35,46), y = 875, label =c('Pattern(Learning) Phase','Broken Phase','Reintroduction of patterns'))
+ # 
+ #  #dev.off()
+ # 
+ #  
+ #  ggsave(
+ #    "results_fig_1_saummary_plot.png",
+ #    p,
+ #    width = 10,
+ #    height = 6,
+ #    dpi = 1200
+ #  )
+ # 
+  
+ # the following will produce the individual plot. Just change the data to 'main.data.visit2' to get plots for visit 2. 
+ 
+# v1_all_plots= ggplot( main.data.visit1, aes(x = SetInd, y = TargetRT,color=Type)) + 
+#    geom_line(alpha=0.75) + 
+#    geom_vline(aes(xintercept = 30), color = 'grey', size = 1, linetype = 'dashed') + 
+#    geom_vline(aes(xintercept = 40), color = 'grey', size = 1, linetype = 'dashed') +
+#    theme_bw()+facet_wrap(~ID)+ scale_fill_brewer(palette="Set1")+
+#    theme(legend.position = "top",strip.text=element_text(size=14),axis.text=element_text(size=14),axis.title=element_text(size=14,face="bold"))
+#  
+
+
+
+#now work with main.data.visit1 only for RDD 
+
+#library()
+#add coeffs for reg discontinuity, just for learning/random phases. 
+for (j in 1:2){
+  lmsummarycoefs<-data.frame(matrix(NA,30,nrow=nsubs))#initialise matrix
+  # 
+  # run through 1st and 2nd datasets, start with default names for session 1
+  main.data=main.data.visit1
+  lmcsv<-'lm_discont_coeffs_linear_V1.csv' 
+  if(j==2){main.data=main.data.visit2
+  lmcsv<-'lm_discont_coeffs_linear_V2.csv'}
+  # 
+  for (i in 1:42){#42 for all,can change to 40 to get the results for  40 (stated in IPA)
+    startcol<- -5 #set so that this will append columns to right place (Historical)
+    for (mytype in 1:5){#5th condition is all nonrandom
+      mytemp<-filter(main.data, ID==unique(main.data$ID)[i],Type!=thistype[1],SetInd<41)
+      if(mytype<5){
+        mytemp<-filter(main.data,  ID==unique(main.data$ID)[i],Type==thistype[mytype],SetInd<41)
+      }
+      # using the RDDtools package
+      RDD.temp<-RDDdata(y=mytemp$TargetRT,x=mytemp$SetInd,cutpoint=31)
+      reg_para <- RDDreg_lm(RDDobject = RDD.temp, order = 1) #this is just linear: for higher order can increase
+      startcol<-startcol+6
+      endcol<-startcol+3
+      lmsummarycoefs[i,startcol:endcol]<-reg_para$coefficients
+      st<-summary(reg_para)[[4]]
+      myt<-st[2,3]#t-value corresponding to difference in slope for two phases
+      lmsummarycoefs[i,endcol+1]<-round(myt,2)
+      myp<-summary(reg_para)$coefficients[2,4]#sig of slope diff for the two phases
+      lmsummarycoefs[i,endcol+2]<-round(myp,4)
+      colnames(lmsummarycoefs)[startcol:endcol]<-paste0(thistype[mytype],'.',names(reg_para$coefficients))
+      colnames(lmsummarycoefs)[endcol+1]<-paste0(thistype[mytype],'_t.diff')
+    }
+  }
+  
+  write.csv(lmsummarycoefs, lmcsv)
+  shortbit<-select(lmsummarycoefs,5,6,11,12,17,18,23,24,29,30) #just cols for t-values and p
+  if(j==1){shortbit_V1=shortbit}
+  if(j==2){shortbit_V2=shortbit}
+}
+
+shortbits_all=cbind(shortbit_V1,shortbit_V2)# binds both the data.frames. Seteting it up forlooking st the test-retest reliability 
+
+colnames(shortbits_all)<-c('rand_t1','rand_p1','adj_d_t1','adj_d_p1','adj_p_t1','adj_p_p1','non_d_t1','non_d_p1',
+                           'allnonrand_t1','allnonrand_p1',
+                           'rand_t2','rand_p2','adj_d_t2','adj_d_p2','adj_p_t2','adj_p_p2','non_d_t2','non_d_p2',
+                           'allnonrand_t2','allnonrand_p2')
+#also add a column to append the WM data 
+#but remove the 31st participant and it should match with the IDs and the vector length 
+
+########get Working Memory Scores#################
+namelang<- list.files("Working_Memory", pattern="*.csv", full.names=TRUE)#reads files from the IQ folder
+nsublang=length(namelang)
+WM=data.frame(matrix(rep(NA,2*nsublang),nrow=nsublang))#nrow=number of subjects, _*nsubs= number of columns per subject(only for SPSS)
+colnames(WM)=c('ID', 'Raw_Score')
+
+for (i in 1:nsublang){
+  mynamelang=namelang[i]
+  x=read.csv(mynamelang) 
+  wm=x[c('date','score')]
+  ID=wm[5,1]
+  Raw_Score=sum (wm$score, na.rm = TRUE)
+  WM[i,1]=ID
+  WM[i,2]=Raw_Score
+}
+
+#it makes sense to remove th 31st again from WM. 
+
+#WM_final= subset(WM,!WM$ID==31&!WM$ID==41&!WM$ID==42)#uncomment this line if you want to get data frame for  n=40 
+
+WM_final= subset(WM,!WM$ID==31)
+SHORTBITS=cbind(shortbits_all[c(1:42), ],WM_final,results)
+
+#plot(SHORTBITS[,c(3,5,7,9,13,15,17,19,22,26,28,30,33)],xlim=c(-2,8),ylim=c(-2,8)) 
+
+a=rcorr(as.matrix(SHORTBITS[,c(3,5,7,9,13,15,17,19,22,26,28,30,33)]))
+
+upper<-a
+upper[upper.tri(a)]<-""
+b=do.call(rbind.data.frame, upper)
+write.csv(b,'all_corr_matrix.csv')#it writes a correlation matrix in excel and saves in the very working directory 
+
+
+#work out the coefficients of linear mixed models. 
+breakblock<-c(7,8)
+nsets<-5
+nblocks<-10
+phase1.start<-1
+phase1.end<-nsets*(breakblock[1]-1)
+phase2.start<-phase1.end+1
+phase2.end<-nsets*(breakblock[2])
+phase3.start<-phase2.end+1
+phase3.end<-nsets*nblocks
+phase1.range<-c(phase1.start:phase1.end)
+phase2.range<-c(phase2.start:phase2.end)
+phase3.range<-c(phase3.start:phase3.end)
+
+
+main.data=main.data.visit1 #change to visit1 or 2 to get either output. Notice if you wanted to look at only n=40, you should have removed the last two participants 
+
+main.data$ID <- as.factor(main.data$ID)
+#main.data$log_TargetRT<-log(main.data$TargetRT+200) #to allow for anticipatory responses
+main.data<-data.frame(main.data)
+
+#####################################################################################
+
+main.data$phase<-ifelse(main.data$SetInd %in% phase1.range,1,0)
+
+main.data$phase<-as.factor(main.data$phase)
+levels(main.data$phase)<-c('Break','Learn')
+myseq<-seq(1,nblocks*nsets)
+bp1<-myseq[phase1.end]+1
+
+b1make <- function(x, bp1) ifelse(x < bp1,  bp1-x, 0) 
+b2make <- function(x, bp1) ifelse(x >= bp1, x - bp1+1, 0)
+
+main.data$b1<-b1make(main.data$SetInd,bp1)
+main.data$b2<-b2make(main.data$SetInd,bp1)
+
+twophase.data<-main.data[main.data$SetInd<=40,]
+
+mod.new <- lmer(TargetRT ~ Type*phase + b2*Type+
+                  +(0+b1|ID:Type)+(0+b1|ID), data = twophase.data,
+                REML = TRUE,control = lmerControl(optimizer = "optimx", 
+                                                  calc.derivs = TRUE,
+                                                  optCtrl = list(method = "nlminb")))
+
+summary(mod.new)
+
+
+##########get recall scores #######################
+
+namelist=list.files("Recall_Post_Visit_2", pattern="*.csv", full.names = TRUE)
+
+nsubs<-length(namelist)
+
+results<-data.frame(matrix(NA,ncol = 9,nrow=nsubs))
+colnames(results)<-c("ID",'pattern_notice', 'broke_notice', 'Adj_D','Adj_D_rt','Adj_P','Adj_P_rt','Non_D','Non_D_rt')
+#pattern_notice 1 is noticed the pattern else 0; Similarly, broke_notice is 1 if they noticed there were disruption in the pattern towards 
+#the end of the task, else 0 
+#the RT's are not informative, as the instruction was to take as much tiem as they wanted to select. 
+
+for (i in 1:nsubs){
+  myname=namelist[i]
+  mydata= read.csv(myname)  # read csv file 
+  #get rid of RTs of inaccurate responses:replace with NA. 
+  Rwdata=mydata
+  pattern_notice=  Rwdata[1, c('pattern')]
+  broke_notice= Rwdata[9, c('broke')]
+  req_data=Rwdata[c('participant','first_image','score','RT')]
+  rec_data= req_data[!(is.na(req_data$score)), ]
+  rec_data$first_image=as.character(rec_data$first_image)
+  rec_data$first_image[rec_data$first_image=='imgs\\\\A1.png']<- 'Adj_D'
+  rec_data$first_image[rec_data$first_image=='imgs\\\\C1.png']<- 'Adj_P'
+  rec_data$first_image[rec_data$first_image=='imgs\\\\E1.png']<- 'Non_D'
+  names(rec_data)[2]='Type'
+  results$ID[i]<-unique(rec_data$participant)
+  results$pattern_notice[i]<-pattern_notice
+  results$broke_notice[i]<-broke_notice
+  # would give '1' to a condition/type only if both the occurances were accurately responded 
+  #take RTs (i.e., average of two Rts) only if the point was scored on accuracy else Rt will be NA. 
+  results$Adj_D[i]<-ifelse(sum(rec_data$score[rec_data$Type=='Adj_D'])== 2,1,0)
+  results$Adj_D_rt[i]<-ifelse(results$Adj_D[i]==1,sum(rec_data$RT[rec_data$Type=='Adj_D'])/2,NA)
+  results$Adj_P[i]<-ifelse(sum(rec_data$score[rec_data$Type=='Adj_P'])== 2,1,0)
+  results$Adj_P_rt[i]<-ifelse(results$Adj_P[i]==1,sum(rec_data$RT[rec_data$Type=='Adj_P'])/2,NA)
+  results$Non_D[i]<-ifelse(sum(rec_data$score[rec_data$Type=='Non_D'])== 2,1,0)
+  results$Non_D_rt[i]<-ifelse(results$Non_D[i]==1,sum(rec_data$RT[rec_data$Type=='Non_D'])/2,NA)
+}   
+
+
+w2<-c(which(results$pattern==110),which(results$pattern==100))
+w1<-c(which(results$pattern==111),which(results$pattern==0))
+
+results$pattern<-100*results$Adj_D+10*results$Adj_P+results$Non_D
+table(results$pattern)#the following will show the predicted patterns' N in our sample 
+
+
+
+#draw correlation in scatter plot 
+
+#cor=SHORTBITS[ ,c(9,19,22,33)]
+#the following code will draw Figure 3a,b,c in manuscript 
+# scatter_plot <- ggplot(cor, aes(allnonrand_t1, allnonrand_t2))
+# v1_v2=scatter_plot + geom_point() + labs(x = "Overall Learning Indix (Visit 1)", y = "Overall Learning Indix (Visit 2)")  +
+#   geom_smooth(method="lm")+
+#   theme_bw()+
+#   scale_x_continuous(breaks=seq(0, 10, by=2))+
+#   scale_y_continuous(breaks=seq(0, 8, by=2))+
+# annotate("text",   x = 7, y = 2, label =  "r=.67,N=42,p<.001")+
+#   ggtitle('a')
+# 
+# 
+# scatter_plot <- ggplot(cor, aes(allnonrand_t1, Raw_Score))
+# wm_v1=scatter_plot + geom_point() + labs(x = "Overall Learning Indix (Visit 1)", y ='PSTM' )  +
+#   geom_smooth(method="lm")+
+#   theme_bw()+
+#   scale_x_continuous(breaks=seq(0,10, by=2))+
+#   scale_y_continuous(breaks=seq(0, 20, by=4))+
+# annotate("text",   x = 7, y = 2, label = "r=.091,N=42,p=.565")+
+#   ggtitle('b')
+# 
+# scatter_plot <- ggplot(cor, aes(allnonrand_t2, Raw_Score))
+# wm_v2=scatter_plot + geom_point() + labs(x = "Overall Learning Indix (Visit 2)", y ='PSTM' )  +
+#   geom_smooth(method="lm")+
+#   theme_bw()+
+#   scale_x_continuous(breaks=seq(0,10, by=2))+
+#   scale_y_continuous(breaks=seq(0, 20, by=4))+
+#   annotate("text",   x = 7, y = 2, label = "r=.073,N=42,p=.642")+
+#   ggtitle('c')
+# 
+# all_corr_plot<-grid.arrange(v1_v2, arrangeGrob(wm_v1,wm_v2, ncol=1), 
+#                     ncol=2, widths=c(1.5,1.2))
+# 
+# ggsave(
+#   "results_fig_2_corr_plots.png",
+#   all_corr_plot,
+#   width = 10,
+#   height = 6,
+#   dpi = 1200
+# )
+
+
+#looking at the correlation between online and offline scores-the validity bit 
+
+#sp_cor=SHORTBITS[ ,c(19,33)]
+
+a=discretize(sp_cor$allnonrand_t2)
+b=discretize(sp_cor$sum)
+H <- condentropy(a, b, method = "mm")

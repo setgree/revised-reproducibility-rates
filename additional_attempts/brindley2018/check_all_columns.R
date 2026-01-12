@@ -1,0 +1,8 @@
+library(haven)
+data <- read_sav("Study1_Data.sav")
+cat("Column names containing 'Beh' or 'beh':\n")
+print(grep("[Bb]eh", names(data), value=TRUE))
+cat("\nColumn names containing 'vsc' or 'VSC':\n")
+print(grep("[Vv][Ss][Cc]", names(data), value=TRUE))
+cat("\nFirst 20 column names:\n")
+print(head(names(data), 20))

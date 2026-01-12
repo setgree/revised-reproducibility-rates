@@ -1,0 +1,169 @@
+[1] "en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8"
+===== STEINEMANN 2017 REPRODUCTION =====
+
+This is lavaan 0.6-21
+lavaan is FREE software! Please report any bugs.
+ 
+###############################################################################
+This is semTools 0.5-7
+All users of R (or SEM) are invited to submit functions or ideas for functions.
+###############################################################################
+Warning messages:
+1: package ‘polycor’ was built under R version 4.4.3 
+2: package ‘lavaan’ was built under R version 4.4.3 
+=== STEP 1: DATA LOADING ===
+Initial sample size: 1278 
+
+After excluding test rounds: 1114 
+After excluding dropouts: 854 
+After bogus item filter: 796 
+After excluding no tracking: 789 
+After duration filter (3 SD): 708 
+After quality filter: 699 
+After duplicates filter: 674 
+Final sample size: 634 
+
+=== STEP 2: VARIABLE CODING ===
+Created composite variables:
+- empco (empathic concern)
+- nareng (narrative engagement)
+- enjoyment
+- appreciation
+- identification
+- responsibility
+- donation
+
+=== STEP 3: DESCRIPTIVE STATISTICS ===
+Condition distribution:
+
+  1   2   3 
+302 331   1 
+
+Donation mean: 0.304 
+Donation SD: 0.377 
+
+=== STEP 4: MAIN SEM MODEL ===
+Running structural equation model (this may take a moment)...
+
+=== MODEL FIT SUMMARY ===
+lavaan 0.6-21 ended normally after 38 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        33
+
+  Number of observations                           634
+
+Model Test User Model:
+                                                      
+  Test statistic                                 2.889
+  Degrees of freedom                                 3
+  P-value (Chi-square)                           0.409
+
+Model Test Baseline Model:
+
+  Test statistic                              1816.860
+  Degrees of freedom                                28
+  P-value                                        0.000
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    1.000
+  Tucker-Lewis Index (TLI)                       1.001
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)              -6008.366
+  Loglikelihood unrestricted model (H1)      -6006.921
+                                                      
+  Akaike (AIC)                               12082.731
+  Bayesian (BIC)                             12229.649
+  Sample-size adjusted Bayesian (SABIC)      12124.877
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.000
+  90 Percent confidence interval - lower         0.000
+  90 Percent confidence interval - upper         0.066
+  P-value H_0: RMSEA <= 0.050                    0.848
+  P-value H_0: RMSEA >= 0.080                    0.014
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.015
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Expected
+  Information saturated (h1) model          Structured
+
+Regressions:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  donation ~                                                            
+    condition         0.014    0.030    0.472    0.637    0.014    0.019
+    identification   -0.065    0.026   -2.468    0.014   -0.065   -0.183
+    responsibility    0.016    0.009    1.777    0.076    0.016    0.075
+    appreciation      0.057    0.022    2.532    0.011    0.057    0.174
+    empco             0.010    0.016    0.596    0.551    0.010    0.029
+    enjoyment        -0.046    0.011   -4.411    0.000   -0.046   -0.189
+    nareng            0.080    0.025    3.191    0.001    0.080    0.200
+  identification ~                                                      
+    condition        -0.057    0.051   -1.119    0.263   -0.057   -0.027
+    empco             0.206    0.028    7.359    0.000    0.206    0.218
+    enjoyment         0.106    0.018    6.069    0.000    0.106    0.155
+    nareng            0.652    0.034   19.138    0.000    0.652    0.585
+  responsibility ~                                                      
+    condition         0.737    0.127    5.812    0.000    0.737    0.216
+    empco             0.152    0.069    2.207    0.027    0.152    0.099
+    enjoyment         0.253    0.043    5.851    0.000    0.253    0.227
+    nareng            0.066    0.084    0.789    0.430    0.066    0.037
+  appreciation ~                                                        
+    condition        -0.145    0.060   -2.436    0.015   -0.145   -0.063
+    empco             0.170    0.033    5.223    0.000    0.170    0.164
+    enjoyment         0.166    0.020    8.151    0.000    0.166    0.220
+    nareng            0.684    0.040   17.271    0.000    0.684    0.558
+
+Covariances:
+                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+ .identification ~~                                                      
+   .appreciation       0.255    0.022   11.597    0.000    0.255    0.519
+   .responsibility     0.243    0.042    5.719    0.000    0.243    0.233
+ .responsibility ~~                                                      
+   .appreciation       0.176    0.049    3.624    0.000    0.176    0.145
+  condition ~~                                                           
+    empco              0.000                               0.000    0.000
+  empco ~~                                                               
+    enjoyment          0.263    0.069    3.822    0.000    0.263    0.154
+    nareng             0.594    0.048   12.361    0.000    0.594    0.563
+  enjoyment ~~                                                           
+    nareng             0.410    0.060    6.851    0.000    0.410    0.283
+  condition ~~                                                           
+    enjoyment          0.000                               0.000    0.000
+    nareng             0.000                               0.000    0.000
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .donation          0.133    0.007   17.804    0.000    0.133    0.933
+   .identification    0.422    0.024   17.804    0.000    0.422    0.380
+   .responsibility    2.572    0.144   17.804    0.000    2.572    0.875
+   .appreciation      0.571    0.032   17.804    0.000    0.571    0.426
+    condition         0.253    0.014   17.804    0.000    0.253    1.000
+    empco             1.246    0.070   17.804    0.000    1.246    1.000
+    enjoyment         2.352    0.132   17.804    0.000    2.352    1.000
+    nareng            0.892    0.050   17.804    0.000    0.892    1.000
+
+
+=== KEY FIT INDICES ===
+Chi-square: 2.89 
+df: 3 
+CFI: 1 
+TLI: 1.001 
+RMSEA: 0 
+SRMR: 0.015 
+
+=== REPRODUCTION SUCCESSFUL ===
+Main SEM model was successfully fitted.
+Results can be compared to those reported in the paper.
+
+===== END OF REPRODUCTION =====

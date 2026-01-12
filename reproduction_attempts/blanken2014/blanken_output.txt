@@ -1,0 +1,84 @@
+[1] "en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8"
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+===== BLANKEN 2014 REPRODUCTION =====
+Moral licensing: Does recalling positive traits reduce donations?
+
+N = 1100 participants
+Condition: 306 308 326 
+
+After filtering: N = 940 
+Condition distribution:
+
+  1   2   3 
+306 308 326 
+
+===== MAIN ANALYSIS: Donation Amount by Condition =====
+# A tibble: 3 × 5
+  Condition              N  Mean    SD Median
+  <dbl+lbl>          <int> <dbl> <dbl>  <dbl>
+1 1 [Positive words]   306  4.52  2.91      4
+2 2 [Negative words]   308  5.10  3.18      6
+3 3 [Neutral words]    326  4.60  3.11      4
+
+===== MODERATION: Self-Monitoring =====
+Self-monitoring descriptives:
+`summarise()` has grouped output by 'Condition'. You can override using the
+`.groups` argument.
+# A tibble: 6 × 5
+# Groups:   Condition [3]
+  Condition          SM_high     N Mean_donation SD_donation
+  <dbl+lbl>            <dbl> <int>         <dbl>       <dbl>
+1 1 [Positive words]       0   133          4.26        2.86
+2 1 [Positive words]       1   173          4.72        2.94
+3 2 [Negative words]       0   139          5.01        3.25
+4 2 [Negative words]       1   169          5.17        3.14
+5 3 [Neutral words]        0   151          4.32        2.94
+6 3 [Neutral words]        1   175          4.85        3.25
+
+
+Regression: Donation ~ Condition * Self-Monitoring
+
+Call:
+lm(formula = donation_amount ~ Condition * ZSelfmonitoring_score, 
+    data = main_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.2952 -2.6545 -0.6928  1.3373  7.4361 
+
+Coefficients:
+                                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                      4.64818    0.26717  17.398   <2e-16 ***
+Condition                        0.04564    0.12249   0.373    0.709    
+ZSelfmonitoring_score            0.06376    0.26717   0.239    0.811    
+Condition:ZSelfmonitoring_score  0.07610    0.12205   0.624    0.533    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3.076 on 936 degrees of freedom
+Multiple R-squared:  0.005519,	Adjusted R-squared:  0.002331 
+F-statistic: 1.731 on 3 and 936 DF,  p-value: 0.1589
+
+
+
+===== ADDITIONAL DV: Cooperative Behavior =====
+# A tibble: 3 × 4
+  Condition              N  Mean    SD
+  <dbl+lbl>          <int> <dbl> <dbl>
+1 1 [Positive words]   306  6.27  1.58
+2 2 [Negative words]   308  6.21  1.60
+3 3 [Neutral words]    326  6.39  1.78
+
+===== SUMMARY =====
+Main hypothesis: Positive self-affirmation leads to LOWER donations (moral licensing)
+Successfully analyzed donation amounts across experimental conditions

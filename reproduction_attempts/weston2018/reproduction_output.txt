@@ -1,0 +1,25 @@
+[1] "en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8"
+===== WESTON 2018 REPRODUCTION =====
+
+
+Attaching package: ‘GPArotation’
+
+The following objects are masked from ‘package:psych’:
+
+    equamax, varimin
+
+=== STEP 1: LOAD DATA ===
+Initial N: 161 
+Good Completes: 102 
+
+=== STEP 2: CREATE NEUROTICISM SCALE ===
+Number of categories should be increased  in order to count frequencies. 
+Warning message:
+In psych::alpha(vigdata[, neur.items], check.keys = T) :
+  Some items were negatively correlated with the first principal component and were automatically reversed.
+ This is indicated by a negative sign for the variable name.
+Cronbach's alpha for neuroticism: 0.898 
+Error in dimnames(x) <- dn : 
+  length of 'dimnames' [1] not equal to array extent
+Calls: scoreItems -> rownames<-
+Execution halted

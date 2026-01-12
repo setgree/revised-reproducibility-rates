@@ -1,0 +1,27 @@
+RECHECKING BLANKEN 2014 INTERPRETATION:
+
+Hypothesis: Moral licensing = Positive self-affirmation → LOWER donations
+
+Results:
+- Positive words: M = 4.52
+- Neutral words: M = 4.60  
+- Negative words: M = 5.10
+
+Pattern: Positive < Neutral < Negative
+
+This means Positive led to LOWEST donations.
+
+Pairwise tests:
+1. Positive vs Neutral: t=-0.353, p=.724 (NOT significant)
+2. Positive vs Negative: t=-2.346, p=.019 (SIGNIFICANT)
+3. Negative vs Neutral: t=1.970, p=.049 (SIGNIFICANT)
+
+CORRECT INTERPRETATION:
+- Pattern IS in predicted direction (Positive → lower donations)
+- But key comparison (Positive vs Neutral control) is NOT significant
+- Only Positive vs Negative is significant
+
+This is PARTIAL support for moral licensing, not "opposite" or "failed replication"
+
+MY ERROR: I said "opposite of moral licensing" which is WRONG
+CORRECT: Partial/weak support - pattern right, but not significant vs control

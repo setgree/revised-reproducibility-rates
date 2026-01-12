@@ -1,0 +1,822 @@
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	15:51:23	65	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	2306	0	1	IF_pretest.jpg	50pct	50pct	112	1	consent.jpg	75	70	112	1	no_consent.jpg	75	30	112
+070913	15:51:23	65	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	6	0	4358	0	5	humorous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	6	0	1363	0	17	strong	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	6	0	1219	0	12	persistent	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	6	0	1129	0	15	altruistic	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	6	0	1387	0	3	happy	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	7	0	3685	0	1	generous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	7	0	2762	0	10	humane	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	6	0	1171	0	4	good-natured	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	5	0	2300	0	7	popular	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	5	0	1600	0	6	sociable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	5	0	1464	0	9	important	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	6	0	1588	0	2	wise	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	3	0	10965	0	14	restrained	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	5	0	2001	0	8	reliable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	4	0	1967	0	13	serious	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	6	0	1577	0	18	honest	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	6	0	7381	0	16	imaginative	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	6	0	2322	0	11	good-looking	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	15:51:23	65	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	15	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	11:14:23	49	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	2101	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	11:14:23	49	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	7	0	2284	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	6	0	1544	0	6	sociable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	4	0	1542	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	7	0	1233	0	15	altruistic	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	7	0	1037	0	1	generous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	5	0	1577	0	14	restrained	40pct	50pct	31	1	How POSITIVE is someone who is:	30pct	50pct	31	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	7	0	1254	0	4	good-natured	40pct	50pct	33	1	How POSITIVE is someone who is:	30pct	50pct	33	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	7	0	1133	0	2	wise	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	7	0	1050	0	8	reliable	40pct	50pct	33	1	How POSITIVE is someone who is:	30pct	50pct	33	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	4	0	1504	0	12	persistent	40pct	50pct	34	1	How POSITIVE is someone who is:	30pct	50pct	34	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	4	0	1255	0	7	popular	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	4	0	1501	0	9	important	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	4	0	1060	0	17	strong	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	5	0	1114	0	3	happy	40pct	50pct	31	1	How POSITIVE is someone who is:	30pct	50pct	31	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	6	0	1843	0	11	good-looking	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	7	0	1953	0	5	humorous	40pct	50pct	33	1	How POSITIVE is someone who is:	30pct	50pct	33	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	7	0	1653	0	10	humane	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	7	0	1828	0	18	honest	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	11:14:23	49	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	08:59:44	36	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	2443	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	08:59:44	36	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	6	0	8208	0	6	sociable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	5	0	1897	0	5	humorous	40pct	50pct	34	1	How POSITIVE is someone who is:	30pct	50pct	34	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	6	0	1369	0	11	good-looking	40pct	50pct	33	1	How POSITIVE is someone who is:	30pct	50pct	33	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	5	0	863	0	1	generous	40pct	50pct	33	1	How POSITIVE is someone who is:	30pct	50pct	33	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	4	0	1700	0	15	altruistic	40pct	50pct	33	1	How POSITIVE is someone who is:	30pct	50pct	33	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	4	0	1478	0	12	persistent	40pct	50pct	33	1	How POSITIVE is someone who is:	30pct	50pct	33	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	6	0	1362	0	18	honest	40pct	50pct	33	1	How POSITIVE is someone who is:	30pct	50pct	33	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	5	0	974	0	7	popular	40pct	50pct	33	1	How POSITIVE is someone who is:	30pct	50pct	33	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	6	0	1509	0	3	happy	40pct	50pct	33	1	How POSITIVE is someone who is:	30pct	50pct	33	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	4	0	2129	0	14	restrained	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	4	0	1316	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	5	0	999	0	4	good-natured	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	4	0	958	0	10	humane	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	6	0	1468	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	6	0	1357	0	9	important	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	5	0	1355	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	5	0	1706	0	17	strong	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:59:44	36	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	7	0	1486	0	2	wise	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	09:01:02	37	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	837	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	09:01:02	37	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	6	0	920	0	10	humane	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	5	0	760	0	9	important	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	6	0	454	0	14	restrained	40pct	50pct	17	1	How POSITIVE is someone who is:	30pct	50pct	17	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	5	0	569	0	5	humorous	40pct	50pct	17	1	How POSITIVE is someone who is:	30pct	50pct	17	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	5	0	1663	0	1	generous	40pct	50pct	17	1	How POSITIVE is someone who is:	30pct	50pct	17	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	4	0	1367	0	12	persistent	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	6	0	1133	0	3	happy	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	5	0	775	0	4	good-natured	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	4	0	635	0	16	imaginative	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	6	0	824	0	6	sociable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	5	0	667	0	2	wise	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	4	0	463	0	17	strong	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	7	0	811	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	6	0	1119	0	18	honest	40pct	50pct	17	1	How POSITIVE is someone who is:	30pct	50pct	17	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	5	0	874	0	11	good-looking	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	4	0	1030	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	4	0	1290	0	7	popular	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	4	0	1132	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:01:02	37	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	33	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	12:15:46	54	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	80607	0	1	IF_pretest.jpg	50pct	50pct	116	1	consent.jpg	75	70	116	1	no_consent.jpg	75	30	116
+070913	12:15:46	54	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	5	0	2845	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	7	0	2977	0	16	imaginative	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	4	0	2073	0	7	popular	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	6	0	1954	0	6	sociable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	7	0	1968	0	8	reliable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	7	0	1211	0	4	good-natured	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	6	0	1518	0	17	strong	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	4	0	1862	0	9	important	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	6	0	1833	0	5	humorous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	6	0	1245	0	10	humane	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	6	0	7204	0	2	wise	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	6	0	1742	0	15	altruistic	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	7	0	1968	0	3	happy	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	5	0	1321	0	11	good-looking	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	7	0	3036	0	18	honest	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	5	0	2033	0	14	restrained	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	7	0	3183	0	1	generous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	3	0	6566	0	12	persistent	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:15:46	54	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	14:54:38	57	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	1704	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	14:54:38	57	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	7	0	9138	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	7	0	1829	0	1	generous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	6	0	1819	0	12	persistent	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	5	0	1840	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	7	0	2565	0	10	humane	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	4	0	1966	0	9	important	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	3	0	1854	0	7	popular	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	5	0	1763	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	7	0	1659	0	2	wise	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	7	0	1063	0	4	good-natured	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	6	0	1852	0	17	strong	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	5	0	1631	0	5	humorous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	5	0	1661	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	7	0	1465	0	18	honest	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	6	0	1438	0	6	sociable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	7	0	1379	0	3	happy	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	3	0	1690	0	14	restrained	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	3	0	1525	0	11	good-looking	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:54:38	57	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	15:28:21	2	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	1171	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	15:28:21	2	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	4	0	1307	0	18	honest	40pct	50pct	33	1	How POSITIVE is someone who is:	30pct	50pct	33	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	4	0	54	0	14	restrained	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	4	0	88	0	10	humane	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	4	0	72	0	9	important	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	4	0	72	0	15	altruistic	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	4	0	57	0	11	good-looking	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	4	0	66	0	6	sociable	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	4	0	67	0	2	wise	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	4	0	75	0	8	reliable	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	4	0	76	0	12	persistent	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	4	0	61	0	4	good-natured	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	4	0	87	0	17	strong	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	4	0	70	0	5	humorous	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	4	0	105	0	3	happy	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	4	0	97	0	7	popular	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	4	0	89	0	1	generous	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	4	0	81	0	13	serious	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	4	0	81	0	16	imaginative	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	15:28:21	2	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	12:17:37	43	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	6235	0	1	IF_pretest.jpg	50pct	50pct	113	1	consent.jpg	75	70	113	1	no_consent.jpg	75	30	113
+070913	12:17:37	43	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	6	0	10793	0	11	good-looking	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	7	0	3929	0	4	good-natured	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	4	0	2214	0	12	persistent	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	7	0	2162	0	6	sociable	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	7	0	2319	0	5	humorous	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	7	0	2009	0	8	reliable	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	4	0	3692	0	7	popular	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	7	0	1822	0	10	humane	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	7	0	1610	0	3	happy	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	5	0	4101	0	16	imaginative	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	6	0	1681	0	1	generous	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	5	0	2860	0	13	serious	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	5	0	4303	0	9	important	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	7	0	2003	0	18	honest	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	4	0	2557	0	14	restrained	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	7	0	2099	0	2	wise	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	7	0	1913	0	15	altruistic	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	4	0	1576	0	17	strong	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	12:17:37	43	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	13	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	09:46:29	14	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	3964	0	1	IF_pretest.jpg	50pct	50pct	106	1	consent.jpg	75	70	106	1	no_consent.jpg	75	30	106
+070913	09:46:29	14	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	7	0	3131	0	16	imaginative	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	7	0	867	0	5	humorous	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	7	0	851	0	18	honest	40pct	50pct	11	1	How POSITIVE is someone who is:	30pct	50pct	11	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	7	0	713	0	12	persistent	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	3	0	3498	0	14	restrained	40pct	50pct	11	1	How POSITIVE is someone who is:	30pct	50pct	11	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	7	0	1261	0	1	generous	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	7	0	965	0	2	wise	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	7	0	707	0	7	popular	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	7	0	939	0	11	good-looking	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	7	0	780	0	17	strong	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	7	0	740	0	9	important	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	7	0	596	0	10	humane	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	7	0	519	0	8	reliable	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	7	0	498	0	4	good-natured	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	7	0	424	0	13	serious	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	7	0	440	0	3	happy	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	7	0	491	0	6	sociable	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	7	0	728	0	15	altruistic	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:46:29	14	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	13	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	15:03:45	58	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	3478	0	1	IF_pretest.jpg	50pct	50pct	131	1	consent.jpg	75	70	131	1	no_consent.jpg	75	30	131
+070913	15:03:45	58	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	4	0	4404	0	14	restrained	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	7	0	3314	0	9	important	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	7	0	1300	0	17	strong	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	6	0	2302	0	6	sociable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	7	0	1584	0	5	humorous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	7	0	1335	0	2	wise	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	7	0	1592	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	6	0	1430	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	5	0	1443	0	12	persistent	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	7	0	1144	0	1	generous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	5	0	1409	0	11	good-looking	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	4	0	1423	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	7	0	1292	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	7	0	1055	0	3	happy	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	4	0	2099	0	7	popular	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	6	0	2269	0	4	good-natured	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	5	0	1976	0	10	humane	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	7	0	1104	0	18	honest	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	15:03:45	58	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	08:40:48	10	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	2666	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	08:40:48	10	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	4	0	4821	0	7	popular	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	6	0	2858	0	12	persistent	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	5	0	1167	0	5	humorous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	5	0	1503	0	6	sociable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	5	0	1393	0	1	generous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	7	0	2479	0	2	wise	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	6	0	1628	0	4	good-natured	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	6	0	1652	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	5	0	1360	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	3	0	1862	0	9	important	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	3	0	2737	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	3	0	1770	0	11	good-looking	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	5	0	1441	0	3	happy	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	4	0	1220	0	10	humane	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	5	0	1185	0	17	strong	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	5	0	1727	0	14	restrained	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	5	0	1319	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	5	0	1161	0	18	honest	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:40:48	10	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	14:56:20	61	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	3377	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	14:56:20	61	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	4	0	4790	0	11	good-looking	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	5	0	2024	0	6	sociable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	7	0	1342	0	10	humane	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	3	0	1203	0	17	strong	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	4	0	1096	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	4	0	795	0	5	humorous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	3	0	971	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	7	0	1505	0	4	good-natured	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	6	0	969	0	3	happy	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	7	0	1172	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	7	0	1336	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	4	0	878	0	7	popular	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	7	0	935	0	1	generous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	6	0	805	0	2	wise	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	7	0	1327	0	18	honest	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	5	0	831	0	12	persistent	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	4	0	1224	0	14	restrained	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	4	0	1518	0	9	important	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:56:20	61	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	08:52:37	21	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	12923	0	1	IF_pretest.jpg	50pct	50pct	132	1	consent.jpg	75	70	132	1	no_consent.jpg	75	30	132
+070913	08:52:37	21	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	7	0	4981	0	3	happy	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	7	0	2945	0	15	altruistic	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	6	0	3288	0	6	sociable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	6	0	2083	0	7	popular	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	5	0	4203	0	9	important	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	6	0	2300	0	11	good-looking	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	3	0	3138	0	14	restrained	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	6	0	2069	0	10	humane	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	3	0	4897	0	13	serious	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	6	0	2039	0	17	strong	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	7	0	2063	0	4	good-natured	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	7	0	1438	0	16	imaginative	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	7	0	1740	0	2	wise	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	6	0	2304	0	12	persistent	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	6	0	2348	0	5	humorous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	6	0	2365	0	1	generous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	7	0	1836	0	18	honest	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	7	0	1419	0	8	reliable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:52:37	21	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	11:50:01	39	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	10765	0	1	IF_pretest.jpg	50pct	50pct	101	1	consent.jpg	75	70	101	1	no_consent.jpg	75	30	101
+070913	11:50:01	39	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	2	0	7559	0	14	restrained	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	6	0	2977	0	8	reliable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	6	0	1703	0	11	good-looking	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	6	0	1590	0	3	happy	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	6	0	2624	0	9	important	40pct	50pct	18	1	How POSITIVE is someone who is:	30pct	50pct	18	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	7	0	1599	0	1	generous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	5	0	3150	0	6	sociable	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	5	0	2405	0	12	persistent	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	6	0	1550	0	5	humorous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	5	0	2166	0	15	altruistic	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	5	0	1706	0	13	serious	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	7	0	2135	0	2	wise	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	7	0	872	0	18	honest	40pct	50pct	11	1	How POSITIVE is someone who is:	30pct	50pct	11	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	7	0	1823	0	10	humane	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	5	0	3142	0	16	imaginative	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	4	0	1902	0	7	popular	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	6	0	1899	0	4	good-natured	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	6	0	1340	0	17	strong	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:50:01	39	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	06:34:21	6	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	21522	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	06:34:21	6	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	4	0	6262	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	5	0	3791	0	7	popular	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	3	0	3385	0	14	restrained	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	6	0	2798	0	3	happy	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	5	0	1947	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	6	0	1613	0	1	generous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	5	0	1300	0	2	wise	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	6	0	1459	0	16	imaginative	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	5	0	4022	0	17	strong	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	6	0	2350	0	6	sociable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	6	0	1379	0	5	humorous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	6	0	3075	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	4	0	1500	0	9	important	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	4	0	1946	0	12	persistent	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	5	0	2557	0	18	honest	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	4	0	2654	0	11	good-looking	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	5	0	2351	0	10	humane	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	6	0	2561	0	4	good-natured	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	06:34:21	6	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	13:17:57	45	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	3231	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	13:17:57	45	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	6	0	8961	0	7	popular	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	6	0	3139	0	12	persistent	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	6	0	1681	0	9	important	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	6	0	1691	0	8	reliable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	6	0	3404	0	13	serious	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	6	0	1455	0	4	good-natured	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	6	0	1194	0	18	honest	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	6	0	1407	0	1	generous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	5	0	1811	0	17	strong	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	6	0	1535	0	5	humorous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	6	0	958	0	6	sociable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	5	0	4885	0	14	restrained	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	6	0	2475	0	11	good-looking	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	6	0	1389	0	2	wise	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	6	0	1202	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	6	0	832	0	10	humane	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	6	0	739	0	3	happy	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	6	0	1019	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:17:57	45	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	09:49:13	16	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	5293	0	1	IF_pretest.jpg	50pct	50pct	106	1	consent.jpg	75	70	106	1	no_consent.jpg	75	30	106
+070913	09:49:13	16	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	6	0	3901	0	11	good-looking	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	6	0	2937	0	3	happy	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	4	0	3429	0	12	persistent	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	6	0	2178	0	5	humorous	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	6	0	1055	0	10	humane	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	6	0	1226	0	4	good-natured	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	6	0	1054	0	1	generous	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	6	0	1026	0	15	altruistic	40pct	50pct	17	1	How POSITIVE is someone who is:	30pct	50pct	17	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	6	0	785	0	8	reliable	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	6	0	806	0	2	wise	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	4	0	4302	0	13	serious	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	4	0	3925	0	9	important	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	5	0	1623	0	16	imaginative	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	5	0	1956	0	7	popular	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	7	0	2013	0	18	honest	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	3	0	2113	0	14	restrained	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	6	0	1742	0	6	sociable	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	5	0	2813	0	17	strong	40pct	50pct	12	1	How POSITIVE is someone who is:	30pct	50pct	12	0	0	0	0	0
+070913	09:49:13	16	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	13	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	11:32:54	34	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	2247	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	11:32:54	34	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	7	0	4522	0	9	important	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	7	0	1076	0	2	wise	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	7	0	1775	0	11	good-looking	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	2	0	1622	0	15	altruistic	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	7	0	1708	0	10	humane	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	7	0	1030	0	7	popular	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	7	0	1467	0	6	sociable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	6	0	2295	0	16	imaginative	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	6	0	1106	0	4	good-natured	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	7	0	978	0	18	honest	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	6	0	1427	0	5	humorous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	2	0	1393	0	14	restrained	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	6	0	1637	0	3	happy	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	3	0	1828	0	12	persistent	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	7	0	1098	0	17	strong	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	7	0	1388	0	8	reliable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	7	0	1619	0	1	generous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	7	0	3535	0	13	serious	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:32:54	34	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	08:34:07	4	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	6613	0	1	IF_pretest.jpg	50pct	50pct	116	1	consent.jpg	75	70	116	1	no_consent.jpg	75	30	116
+070913	08:34:07	4	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	7	0	5057	0	18	honest	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	7	0	1727	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	4	0	4009	0	7	popular	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	7	0	1633	0	10	humane	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	4	0	1685	0	6	sociable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	5	0	2073	0	9	important	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	7	0	1997	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	3	0	2532	0	11	good-looking	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	5	0	1717	0	17	strong	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	7	0	1471	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	7	0	1011	0	5	humorous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	7	0	1009	0	2	wise	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	6	0	1359	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	4	0	2592	0	3	happy	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	6	0	1696	0	1	generous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	6	0	1130	0	4	good-natured	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	5	0	1858	0	14	restrained	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	6	0	1856	0	12	persistent	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:34:07	4	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	13:28:02	47	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	16133	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	13:28:02	47	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	6	0	13515	0	10	humane	40pct	50pct	17	1	How POSITIVE is someone who is:	30pct	50pct	17	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	7	0	3961	0	1	generous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	5	0	2717	0	11	good-looking	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	4	0	2714	0	7	popular	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	4	0	1766	0	12	persistent	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	4	0	1844	0	9	important	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	6	0	1370	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	7	0	2819	0	18	honest	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	6	0	1991	0	5	humorous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	6	0	1267	0	2	wise	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	6	0	1093	0	3	happy	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	7	0	1567	0	6	sociable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	7	0	1855	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	3	0	2053	0	14	restrained	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	6	0	1209	0	4	good-natured	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	5	0	1922	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	4	0	1772	0	13	serious	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	5	0	1770	0	17	strong	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	13:28:02	47	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	17	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	08:35:31	7	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	4309	0	1	IF_pretest.jpg	50pct	50pct	118	1	consent.jpg	75	70	118	1	no_consent.jpg	75	30	118
+070913	08:35:31	7	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	6	0	5110	0	6	sociable	40pct	50pct	47	1	How POSITIVE is someone who is:	30pct	50pct	47	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	5	0	3224	0	11	good-looking	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	7	0	2628	0	8	reliable	40pct	50pct	59	1	How POSITIVE is someone who is:	30pct	50pct	59	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	7	0	1867	0	2	wise	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	5	0	1975	0	13	serious	40pct	50pct	17	1	How POSITIVE is someone who is:	30pct	50pct	17	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	6	0	2158	0	5	humorous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	7	0	1535	0	10	humane	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	7	0	948	0	18	honest	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	5	0	2213	0	14	restrained	40pct	50pct	17	1	How POSITIVE is someone who is:	30pct	50pct	17	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	4	0	2063	0	9	important	40pct	50pct	18	1	How POSITIVE is someone who is:	30pct	50pct	18	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	5	0	1595	0	3	happy	40pct	50pct	17	1	How POSITIVE is someone who is:	30pct	50pct	17	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	5	0	1602	0	15	altruistic	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	6	0	1301	0	4	good-natured	40pct	50pct	63	1	How POSITIVE is someone who is:	30pct	50pct	63	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	5	0	1901	0	17	strong	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	5	0	2531	0	1	generous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	5	0	1397	0	7	popular	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	6	0	1651	0	12	persistent	40pct	50pct	33	1	How POSITIVE is someone who is:	30pct	50pct	33	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	5	0	2029	0	16	imaginative	40pct	50pct	33	1	How POSITIVE is someone who is:	30pct	50pct	33	0	0	0	0	0
+070913	08:35:31	7	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	27	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	08:56:54	24	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	1288	0	1	IF_pretest.jpg	50pct	50pct	116	1	consent.jpg	75	70	116	1	no_consent.jpg	75	30	116
+070913	08:56:54	24	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	6	0	7002	0	9	important	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	5	0	4130	0	17	strong	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	3	0	2529	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	7	0	2403	0	1	generous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	6	0	1362	0	11	good-looking	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	7	0	1536	0	18	honest	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	7	0	1042	0	10	humane	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	5	0	1301	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	6	0	1001	0	6	sociable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	4	0	3084	0	2	wise	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	7	0	1175	0	3	happy	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	7	0	1479	0	7	popular	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	7	0	1661	0	5	humorous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	5	0	2316	0	12	persistent	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	5	0	893	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	7	0	1928	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	3	0	2110	0	14	restrained	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	6	0	1155	0	4	good-natured	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	08:56:54	24	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	09:42:57	11	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	3795	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	09:42:57	11	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	6	0	13896	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	4	0	3249	0	15	altruistic	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	4	0	1866	0	11	good-looking	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	4	0	2127	0	17	strong	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	4	0	1961	0	9	important	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	5	0	1537	0	13	serious	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	6	0	1772	0	4	good-natured	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	6	0	2298	0	6	sociable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	7	0	1559	0	1	generous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	6	0	1248	0	18	honest	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	4	0	2157	0	12	persistent	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	5	0	3349	0	14	restrained	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	6	0	1375	0	8	reliable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	6	0	1229	0	5	humorous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	6	0	1941	0	2	wise	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	6	0	1914	0	10	humane	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	4	0	1869	0	7	popular	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:42:57	11	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	5	0	1097	0	3	happy	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	09:45:33	15	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	1006	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	09:45:33	15	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	4	0	2865	0	12	persistent	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	6	0	1158	0	2	wise	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	6	0	1262	0	16	imaginative	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	5	0	1271	0	3	happy	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	5	0	1348	0	6	sociable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	4	0	1752	0	11	good-looking	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	6	0	1326	0	4	good-natured	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	4	0	1013	0	17	strong	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	6	0	1088	0	10	humane	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	7	0	1775	0	1	generous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	4	0	1208	0	13	serious	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	4	0	1079	0	7	popular	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	5	0	1265	0	8	reliable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	6	0	945	0	5	humorous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	6	0	1091	0	18	honest	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	4	0	1241	0	15	altruistic	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	5	0	1044	0	14	restrained	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	4	0	1168	0	9	important	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:45:33	15	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	11:52:35	35	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	4084	0	1	IF_pretest.jpg	50pct	50pct	117	1	consent.jpg	75	70	117	1	no_consent.jpg	75	30	117
+070913	11:52:35	35	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	6	0	4028	0	6	sociable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	6	0	1970	0	18	honest	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	6	0	2340	0	5	humorous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	4	0	2004	0	11	good-looking	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	5	0	1516	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	6	0	1348	0	9	important	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	7	0	1359	0	2	wise	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	7	0	1270	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	6	0	1791	0	10	humane	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	6	0	1195	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	5	0	1847	0	17	strong	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	4	0	2761	0	7	popular	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	5	0	1143	0	1	generous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	4	0	2110	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	5	0	1009	0	4	good-natured	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	6	0	1307	0	3	happy	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	5	0	1483	0	12	persistent	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	4	0	1423	0	14	restrained	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:52:35	35	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	10:05:39	32	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	7632	0	1	IF_pretest.jpg	50pct	50pct	116	1	consent.jpg	75	70	116	1	no_consent.jpg	75	30	116
+070913	10:05:39	32	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	6	0	4877	0	15	altruistic	40pct	50pct	21	1	How POSITIVE is someone who is:	30pct	50pct	21	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	7	0	6510	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	7	0	3506	0	2	wise	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	7	0	1743	0	12	persistent	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	5	0	2694	0	9	important	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	2	0	5680	0	4	good-natured	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	3	0	4340	0	10	humane	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	6	0	3914	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	6	0	2021	0	3	happy	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	6	0	1241	0	18	honest	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	6	0	1042	0	17	strong	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	4	0	2369	0	5	humorous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	4	0	2727	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	4	0	1596	0	1	generous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	5	0	3347	0	7	popular	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	5	0	1476	0	6	sociable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	4	0	5219	0	11	good-looking	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	3	0	1905	0	14	restrained	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:05:39	32	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	10:12:18	28	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	2400	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	10:12:18	28	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	7	0	2965	0	4	good-natured	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	7	0	1495	0	13	serious	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	7	0	773	0	17	strong	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	4	0	2640	0	11	good-looking	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	7	0	2154	0	5	humorous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	7	0	991	0	6	sociable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	4	0	2123	0	7	popular	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	7	0	1473	0	16	imaginative	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	7	0	793	0	1	generous	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	4	0	1762	0	9	important	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	7	0	1618	0	2	wise	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	7	0	780	0	18	honest	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	4	0	2626	0	15	altruistic	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	7	0	1113	0	10	humane	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	7	0	1546	0	14	restrained	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	7	0	1253	0	3	happy	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	7	0	1648	0	12	persistent	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	7	0	782	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	10:12:18	28	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	11:47:21	38	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	27434	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	11:47:21	38	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	6	0	8516	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	7	0	2698	0	5	humorous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	7	0	2174	0	6	sociable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	7	0	1817	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	4	0	4327	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	6	0	3367	0	18	honest	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	4	0	5967	0	12	persistent	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	6	0	4418	0	7	popular	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	7	0	2254	0	3	happy	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	7	0	922	0	2	wise	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	7	0	760	0	17	strong	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	6	0	3076	0	9	important	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	4	0	3804	0	11	good-looking	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	7	0	1794	0	4	good-natured	40pct	50pct	31	1	How POSITIVE is someone who is:	30pct	50pct	31	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	7	0	2527	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	7	0	1071	0	1	generous	40pct	50pct	47	1	How POSITIVE is someone who is:	30pct	50pct	47	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	7	0	1270	0	10	humane	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	5	0	3426	0	14	restrained	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	11:47:21	38	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	17	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	14:32:40	56	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	29707	0	1	IF_pretest.jpg	50pct	50pct	114	1	consent.jpg	75	70	114	1	no_consent.jpg	75	30	114
+070913	14:32:40	56	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	7	0	9261	0	18	honest	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	7	0	79	0	13	serious	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	7	0	4651	0	6	sociable	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	5	0	7082	0	15	altruistic	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	6	0	3500	0	11	good-looking	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	7	0	1954	0	2	wise	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	7	0	1458	0	1	generous	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	7	0	1346	0	10	humane	40pct	50pct	28	1	How POSITIVE is someone who is:	30pct	50pct	28	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	6	0	3570	0	9	important	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	6	0	1859	0	7	popular	40pct	50pct	28	1	How POSITIVE is someone who is:	30pct	50pct	28	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	7	0	2467	0	4	good-natured	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	7	0	1819	0	16	imaginative	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	7	0	100	0	12	persistent	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	7	0	1048	0	17	strong	40pct	50pct	27	1	How POSITIVE is someone who is:	30pct	50pct	27	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	7	0	1025	0	3	happy	40pct	50pct	42	1	How POSITIVE is someone who is:	30pct	50pct	42	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	7	0	5842	0	14	restrained	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	7	0	1516	0	8	reliable	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	7	0	914	0	5	humorous	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	14:32:40	56	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	14	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	08:52:25	20	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	92742	0	1	IF_pretest.jpg	50pct	50pct	101	1	consent.jpg	75	70	101	1	no_consent.jpg	75	30	101
+070913	08:52:25	20	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	7	0	2473	0	15	altruistic	40pct	50pct	33	1	How POSITIVE is someone who is:	30pct	50pct	33	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	5	0	1776	0	11	good-looking	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	5	0	1126	0	14	restrained	40pct	50pct	29	1	How POSITIVE is someone who is:	30pct	50pct	29	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	7	0	1129	0	18	honest	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	6	0	1106	0	17	strong	40pct	50pct	31	1	How POSITIVE is someone who is:	30pct	50pct	31	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	5	0	1320	0	13	serious	40pct	50pct	31	1	How POSITIVE is someone who is:	30pct	50pct	31	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	6	0	1554	0	5	humorous	40pct	50pct	29	1	How POSITIVE is someone who is:	30pct	50pct	29	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	5	0	1235	0	16	imaginative	40pct	50pct	30	1	How POSITIVE is someone who is:	30pct	50pct	30	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	3	0	1283	0	12	persistent	40pct	50pct	30	1	How POSITIVE is someone who is:	30pct	50pct	30	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	6	0	1298	0	10	humane	40pct	50pct	27	1	How POSITIVE is someone who is:	30pct	50pct	27	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	4	0	2621	0	9	important	40pct	50pct	29	1	How POSITIVE is someone who is:	30pct	50pct	29	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	4	0	1113	0	7	popular	40pct	50pct	30	1	How POSITIVE is someone who is:	30pct	50pct	30	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	5	0	1405	0	3	happy	40pct	50pct	29	1	How POSITIVE is someone who is:	30pct	50pct	29	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	6	0	1512	0	4	good-natured	40pct	50pct	30	1	How POSITIVE is someone who is:	30pct	50pct	30	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	5	0	1248	0	6	sociable	40pct	50pct	29	1	How POSITIVE is someone who is:	30pct	50pct	29	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	7	0	1191	0	1	generous	40pct	50pct	29	1	How POSITIVE is someone who is:	30pct	50pct	29	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	7	0	2988	0	8	reliable	40pct	50pct	29	1	How POSITIVE is someone who is:	30pct	50pct	29	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	7	0	752	0	2	wise	40pct	50pct	26	1	How POSITIVE is someone who is:	30pct	50pct	26	0	0	0	0	0
+070913	08:52:25	20	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	17	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	09:38:12	8	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	3950	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	09:38:12	8	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	6	0	6637	0	17	strong	40pct	50pct	26	1	How POSITIVE is someone who is:	30pct	50pct	26	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	7	0	2322	0	3	happy	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	6	0	2098	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	7	0	2146	0	14	restrained	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	6	0	2145	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	7	0	1393	0	18	honest	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	7	0	2205	0	12	persistent	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	5	0	3441	0	11	good-looking	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	7	0	1597	0	2	wise	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	7	0	1211	0	1	generous	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	5	0	2815	0	5	humorous	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	7	0	1486	0	10	humane	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	7	0	1589	0	4	good-natured	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	5	0	2434	0	7	popular	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	6	0	1838	0	9	important	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	5	0	1611	0	6	sociable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	7	0	1905	0	8	reliable	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	6	0	1954	0	13	serious	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	09:38:12	8	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	15	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	19:50:45	48	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	1549	0	1	IF_pretest.jpg	50pct	50pct	133	1	consent.jpg	75	70	133	1	no_consent.jpg	75	30	133
+070913	19:50:45	48	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	4	0	11041	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	4	0	119	0	18	honest	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	5	0	2664	0	7	popular	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	6	0	5261	0	16	imaginative	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	6	0	3650	0	8	reliable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	6	0	2276	0	11	good-looking	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	7	0	2299	0	1	generous	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	7	0	1018	0	4	good-natured	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	7	0	698	0	3	happy	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	6	0	2706	0	10	humane	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	5	0	1212	0	5	humorous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	4	0	3194	0	14	restrained	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	6	0	1872	0	17	strong	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	5	0	2137	0	9	important	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	6	0	1590	0	2	wise	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	6	0	2504	0	6	sociable	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	6	0	1833	0	12	persistent	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	6	0	2001	0	13	serious	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	19:50:45	48	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	09:33:04	3	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	1896	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	09:33:04	3	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	5	0	2322	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	5	0	1694	0	18	honest	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	4	0	1346	0	14	restrained	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	6	0	1132	0	2	wise	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	5	0	1499	0	6	sociable	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	5	0	832	0	5	humorous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	6	0	1060	0	17	strong	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	4	0	1640	0	7	popular	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	5	0	1046	0	8	reliable	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	6	0	1020	0	10	humane	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	6	0	977	0	4	good-natured	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	5	0	2249	0	13	serious	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	3	0	1760	0	9	important	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	3	0	1177	0	12	persistent	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	5	0	1066	0	11	good-looking	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	5	0	1252	0	16	imaginative	40pct	50pct	32	1	How POSITIVE is someone who is:	30pct	50pct	32	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	6	0	1386	0	1	generous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	6	0	641	0	3	happy	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:33:04	3	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	07:44:39	13	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	6987	0	1	IF_pretest.jpg	50pct	50pct	116	1	consent.jpg	75	70	116	1	no_consent.jpg	75	30	116
+070913	07:44:39	13	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	4	0	5757	0	15	altruistic	40pct	50pct	33	1	How POSITIVE is someone who is:	30pct	50pct	33	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	6	0	3835	0	17	strong	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	7	0	2562	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	7	0	1255	0	3	happy	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	7	0	1269	0	18	honest	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	7	0	1191	0	2	wise	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	7	0	1429	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	7	0	1338	0	4	good-natured	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	4	0	2547	0	7	popular	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	7	0	2329	0	6	sociable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	4	0	2482	0	9	important	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	7	0	2692	0	1	generous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	7	0	1692	0	11	good-looking	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	7	0	2419	0	12	persistent	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	4	0	2441	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	7	0	2895	0	10	humane	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	4	0	3389	0	14	restrained	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	4	0	2256	0	5	humorous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	07:44:39	13	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	09:48:44	17	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	3269	0	1	IF_pretest.jpg	50pct	50pct	116	1	consent.jpg	75	70	116	1	no_consent.jpg	75	30	116
+070913	09:48:44	17	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	5	0	7078	0	17	strong	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	5	0	1278	0	5	humorous	40pct	50pct	30	1	How POSITIVE is someone who is:	30pct	50pct	30	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	5	0	1375	0	12	persistent	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	4	0	1531	0	6	sociable	40pct	50pct	13	1	How POSITIVE is someone who is:	30pct	50pct	13	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	5	0	2779	0	18	honest	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	5	0	1749	0	4	good-natured	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	5	0	793	0	8	reliable	40pct	50pct	30	1	How POSITIVE is someone who is:	30pct	50pct	30	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	6	0	1862	0	10	humane	40pct	50pct	31	1	How POSITIVE is someone who is:	30pct	50pct	31	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	5	0	1382	0	16	imaginative	40pct	50pct	30	1	How POSITIVE is someone who is:	30pct	50pct	30	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	4	0	1547	0	3	happy	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	4	0	975	0	11	good-looking	40pct	50pct	30	1	How POSITIVE is someone who is:	30pct	50pct	30	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	5	0	1062	0	1	generous	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	5	0	1030	0	13	serious	40pct	50pct	31	1	How POSITIVE is someone who is:	30pct	50pct	31	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	5	0	991	0	14	restrained	40pct	50pct	31	1	How POSITIVE is someone who is:	30pct	50pct	31	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	4	0	1670	0	7	popular	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	6	0	1156	0	2	wise	40pct	50pct	30	1	How POSITIVE is someone who is:	30pct	50pct	30	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	4	0	1331	0	9	important	40pct	50pct	14	1	How POSITIVE is someone who is:	30pct	50pct	14	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	5	0	1204	0	15	altruistic	40pct	50pct	28	1	How POSITIVE is someone who is:	30pct	50pct	28	0	0	0	0	0
+070913	09:48:44	17	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	blocknum	trialnum	blockcode	trialcode	pretrialpause	posttrialpause	windowcenter	trialduration	trialtimeout	blocktimeout	response	correct	latency	inwindow	stimulusnumber1	stimulusitem1	stimulusvpos1	stimulushpos1	stimulusonset1	stimulusnumber2	stimulusitem2	stimulusvpos2	stimulushpos2	stimulusonset2	stimulusnumber3	stimulusitem3	stimulusvpos3	stimulushpos3	stimulusonset3
+070913	14:19:52	50	3.0.6.0	1	1	INF	INF	100	100	0	0	0	0	consent	0	14865	0	1	IF_pretest.jpg	50pct	50pct	100	1	consent.jpg	75	70	100	1	no_consent.jpg	75	30	100
+070913	14:19:52	50	3.0.6.0	2	1	rating	valence	0	0	0	0	0	0	7	0	3251	0	18	honest	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	2	rating	valence	0	0	0	0	0	0	7	0	1587	0	5	humorous	40pct	50pct	17	1	How POSITIVE is someone who is:	30pct	50pct	17	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	3	rating	valence	0	0	0	0	0	0	7	0	2567	0	13	serious	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	4	rating	valence	0	0	0	0	0	0	7	0	977	0	1	generous	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	5	rating	valence	0	0	0	0	0	0	7	0	869	0	4	good-natured	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	6	rating	valence	0	0	0	0	0	0	7	0	939	0	10	humane	40pct	50pct	17	1	How POSITIVE is someone who is:	30pct	50pct	17	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	7	rating	valence	0	0	0	0	0	0	7	0	837	0	6	sociable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	8	rating	valence	0	0	0	0	0	0	5	0	2301	0	12	persistent	40pct	50pct	17	1	How POSITIVE is someone who is:	30pct	50pct	17	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	9	rating	valence	0	0	0	0	0	0	6	0	1881	0	17	strong	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	10	rating	valence	0	0	0	0	0	0	5	0	1804	0	7	popular	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	11	rating	valence	0	0	0	0	0	0	7	0	1784	0	15	altruistic	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	12	rating	valence	0	0	0	0	0	0	4	0	2630	0	11	good-looking	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	13	rating	valence	0	0	0	0	0	0	4	0	3247	0	9	important	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	14	rating	valence	0	0	0	0	0	0	7	0	2242	0	16	imaginative	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	15	rating	valence	0	0	0	0	0	0	7	0	1081	0	8	reliable	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	16	rating	valence	0	0	0	0	0	0	7	0	906	0	3	happy	40pct	50pct	16	1	How POSITIVE is someone who is:	30pct	50pct	16	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	17	rating	valence	0	0	0	0	0	0	7	0	958	0	2	wise	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	2	18	rating	valence	0	0	0	0	0	0	6	0	3140	0	14	restrained	40pct	50pct	15	1	How POSITIVE is someone who is:	30pct	50pct	15	0	0	0	0	0
+070913	14:19:52	50	3.0.6.0	4	1	end	end	0	0	0	0	0	0	0	0	2	0	1		60	50	16	0	0	0	0	0	0	0	0	0	0
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	15:51:23	65	3.0.6.0	A3PW753TPR4PVP	14117	2	14117	21	14117	Asian American	14117	1	14117	1	10585	6	10585	7	10585		10585	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	11:14:23	49	3.0.6.0	A2SYRFPPV9WDEG	8005	1	8005	32	8005	European American	8005	1	8005	1	6268	7	6268	7	6268		6268	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	09:01:02	37	3.0.6.0	A1FZJ3S9CN8Z7T	11334	1	11334	23	11334	Asian American	11334	1	11334	1	8649	7	8649	7	8649		8649	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	12:15:46	54	3.0.6.0	AOBW6CLVG6Z8F	22229	2	22229	26	22229	Hispanic	22229	1	22229	1	8854	7	8854	7	8854		8854	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	14:54:38	57	3.0.6.0	A372Y5FHPBAM4O	13141	2	13141	26	13141	European American	13141	1	13141	1	6440	7	6440	7	6440		6440	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	15:28:21	2	3.0.6.0	TEST-throw out	9661	2	9661	28	9661	Hispanic	9661	1	9661	2	8016	2	8016	2	8016	TEST-throw out!	8016	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	12:17:37	43	3.0.6.0	A2HHK2B1GUH9GX	16410	2	16410	31	16410	European American	16410	1	16410	2	9997	7	9997	6	9997		9997	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	09:46:29	14	3.0.6.0	A2LTVUZZXTKIOJ	74069	1	74069	32	74069	European American	74069	1	74069	1	12655	7	12655	7	12655		12655	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	15:03:45	58	3.0.6.0	A2HR7ZIX42FEPG	9343	2	9343	25	9343	European American	9343	1	9343	2	11676	7	11676	7	11676		11676	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	08:40:48	10	3.0.6.0	A3AN2XS8AEDNHV	34366	1	34366	37	34366	European American	34366	1	34366	1	9189	6	9189	6	9189		9189	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	14:56:20	61	3.0.6.0		33588	1	33588	23	33588	European American	33588	1	33588	1	6979	7	6979	7	6979		6979	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	08:52:37	21	3.0.6.0	A3G2NVZWJQHAYH	120028	2	120028	67	120028	European American	120028	1	120028	1	17501	7	17501	7	17501	Thank you	17501	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	11:50:01	39	3.0.6.0	 ARGCKZUUHHDY6	21982	2	21982	25	21982	Hispanic	21982	1	21982	1	12647	7	12647	7	12647		12647	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	06:34:21	6	3.0.6.0	A37LJQJORO23QZ	27670	2	27670	35	27670	European American	27670	1	27670	1	10166	7	10166	7	10166		10166	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	13:17:57	45	3.0.6.0	A25MAA14V6FLE3	35079	1	35079	55	35079	Hispanic	35079	2	35079	1	22267	7	22267	7	22267	THANKS	22267	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	09:49:13	16	3.0.6.0	A2IASXMEJ90PQY	13390	2	13390	35	13390	Asian American	13390	1	13390	1	7234	7	7234	7	7234		7234	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	11:32:54	34	3.0.6.0	ACDY1Z0HLY7N0	15783	2	15783	27	15783	Native American	15783	1	15783	1	9296	7	9296	7	9296		9296	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	08:34:07	4	3.0.6.0	AW0K78T412T72	29432	2	29432	66	29432	European American	29432	1	29432	1	22342	7	22342	7	22342	none,thank you!	22342	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	13:28:02	47	3.0.6.0	AH1XR2YSNU6VE	16213	2	16213	26	16213	European American	16213	1	16213	1	9138	7	9138	7	9138		9138	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	08:35:31	7	3.0.6.0	A28JXW5YZJDNK4	16271	2	16271	50	16271	European American	16271	1	16271	1	10622	7	10622	7	10622		10622	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	08:56:54	24	3.0.6.0	A3193MI1J3OGLA	13586	1	13586	20	13586	Asian American	13586	1	13586	1	6328	7	6328	7	6328		6328	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	09:45:33	15	3.0.6.0	APKVC5D5PVAW4	21941	1	21941	21	21941	European American	21941	1	21941	1	13680	6	13680	6	13680		13680	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	11:52:35	35	3.0.6.0	AEYTI47VQP5K0	56405	1	56405	20	56405	European American	56405	1	56405	1	11506	6	11506	6	11506		11506	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	10:05:39	32	3.0.6.0	A1JNE9F1TND5WU	49703	2	49703	58	49703	European American	49703	1	49703	1	9454	7	9454	7	9454		9454	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	10:12:18	28	3.0.6.0	AEX85SLEN727	22596	2	22596	48	22596	European American	22596	1	22596	1	7129	7	7129	7	7129		7129	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	11:47:21	38	3.0.6.0	A2UKE5M4IZP49P	18718	1	18718	32	18718	African American	18718	1	18718	1	15047	6	15047	7	15047		15047	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	14:32:40	56	3.0.6.0	AL2DWB1NI4QQW	36420	2	36420	52	36420	African American	36420	1	36420	1	26045	7	26045	7	26045		26045	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	08:52:25	20	3.0.6.0	A2SD7GN80U31GW	33218	2	33218	28	33218	European American	33218	1	33218	1	7807	7	7807	7	7807		7807	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	09:38:12	8	3.0.6.0		38492	1	38492	36	38492	European American	38492	1	38492	1	9717	7	9717	7	9717		9717	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	19:50:45	48	3.0.6.0	A2CZBLX0SCFYPJ	18890	1	18890	19	18890	other	18890	1	18890	1	8231	7	8231	7	8231		8231	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	09:33:04	3	3.0.6.0	A31NM1MBTECA53	146760	1	146760	29	146760	European American	146760	1	146760	1	7613	7	7613	7	7613		7613	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	07:44:39	13	3.0.6.0	 A359ETX78LN74M	23724	2	23724	27	23724	European American	23724	1	23724	1	7777	7	7777	7	7777		7777	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	09:48:44	17	3.0.6.0	A27LGC4MU1R7PQ	9243	1	9243	23	9243	European American	9243	1	9243	1	5203	7	5203	7	5203		5203	
+date	time	subject	build	ID_response	ID_latency	sex_response	sex_latency	age_response	age_latency	race_response	race_latency	native_response	native_latency	problems_response	problems_latency	concentrate_response	concentrate_latency	best_response	best_latency	remarks_response	remarks_latency	
+070913	14:19:52	50	3.0.6.0	AYKWWDP6JNZOA	21304	2	21304	48	21304	African American	21304	1	21304	1	13253	7	13253	7	13253		13253	
