@@ -230,8 +230,8 @@ Is Kuppuraj's pattern (same conclusion, different magnitudes) "reproducible"?
 **Reproducibility studies:**
 - Lakens et al. (2018) - [Original study this follows up](https://journals.sagepub.com/doi/full/10.1177/2515245920918872)
 - Hardwicke et al. (2018) - [Cognition journal reproductions](https://royalsocietypublishing.org/doi/full/10.1098/rsos.180448)
-- Stockemer et al. (2018) - Political science reproductions
-- Stodden et al. (2018) - Science journal reproductions
+- Stockemer et al. (2018) - [Political science reproductions](https://doi.org/10.1017/S1049096518000926)
+- Stodden et al. (2018) - [Science journal reproductions](https://doi.org/10.1073/pnas.1708290115)
 
 **AI-assisted reproduction:**
 - Akera et al. (2024) - [Comparing human vs AI teams on reproducibility](https://arxiv.org/abs/2411.09381)
@@ -338,7 +338,7 @@ https://github.com/setgree/revised-reproducibility-rates
 
 **Seth Ariel Green**
 - Email: setgree@stanford.edu
-- Website: https://www.foodlabstanford.com/
+- Website: https://regressiontothemeat.substack.com
 - GitHub: https://github.com/setgree
 
 **Collaboration welcome!** Particularly interested in:
